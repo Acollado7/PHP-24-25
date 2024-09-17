@@ -9,9 +9,13 @@
     <?php
     $texto1="Juan";
     $texto2="Maria";
+    $a=8;
+    $b=10;
+    $c= $a + $b;
 
     echo "<h1>Mi Primera Web PHP</h1>";
-    echo "<p>Hola</p>";
+    echo "<p>El se llama ". $texto1." y ella se llama ".$texto2."</p>";
+    echo "<p>El resultado de sumar ".$a." + ".$b." = ".$c."</p>";
 
 
     ?>
