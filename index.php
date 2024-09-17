@@ -8,6 +8,6 @@
 <body>
     
     <h1>Mi primera Web php</h1>
-        <p></p>
+        
 </body>
 </html>
