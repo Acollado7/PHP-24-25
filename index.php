@@ -6,8 +6,12 @@
     <title>Super Web</title>
 </head>
 <body>
-    
-    <h1>Mi primera Web php</h1>
+    <?php
+
+    echo "<h1>Mi Primera Web PHP</h1>";
+
+    ?>
+
         
 </body>
 </html>
