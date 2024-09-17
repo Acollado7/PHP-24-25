@@ -7,6 +7,8 @@
 </head>
 <body>
     <?php
+    $texto1="Juan";
+    $texto2="Maria";
 
     echo "<h1>Mi Primera Web PHP</h1>";
     echo "<p>Hola</p>";
