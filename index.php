@@ -9,6 +9,8 @@
     <?php
 
     echo "<h1>Mi Primera Web PHP</h1>";
+    echo "<p>Hola</p>";
+
 
     ?>
 
