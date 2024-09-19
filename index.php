@@ -17,7 +17,6 @@
     echo "<p>El se llama ". $texto1." y ella se llama ".$texto2."</p>";
     echo "<p>El resultado de sumar ".$a." + ".$b." = ".$c."</p>";
 
-
     ?>
 
         
