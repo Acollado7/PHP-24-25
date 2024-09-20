@@ -1,22 +1,4 @@
-<?php
-
-if (!isset($_POST["btn_guardar_cambios"])) {
-    header("Location:index.php");
-        exit;
-}
-
-?>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>recogida de datos </title>
-</head>
-<body>
-    <h1>Datos recogidos</h1>
+<h1>Datos recogidos</h1>
     <?php
 
         echo "<p><strong>Nombre: </strong>".$_POST["nombre"]."</p>";
@@ -40,6 +22,3 @@ if (!isset($_POST["btn_guardar_cambios"])) {
         echo "</p>";
 
     ?>
-    
-</body>
-</html>
