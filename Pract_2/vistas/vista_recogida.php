@@ -48,9 +48,9 @@ echo "<p>La aficion seleccionada ha sido:</p>";
     echo "<ol>";
     echo "<li>Otros</li>";
     echo "</ol>";
+}elseif (!isset($_POST["otros"]) && (!isset($_POST["deporte"])) && !isset($_POST["lectura"])){
+    echo "<p>No has seleccionado ninguna aficion</p>";
 }
-
-
 //comentarios
 if (isset($_POST["comentarios"]) && $_POST["comentarios"]== "") {
    echo "<p>No has hecho ningun comentario:</p>";
