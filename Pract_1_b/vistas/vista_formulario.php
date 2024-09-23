@@ -1,15 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 1</title>
-</head>
-
-<body>
-
 <h1>Rellena tu CV</h1>
     <form action="index.php" method="post" enctype="multipart/form-data">
         <p>
@@ -90,12 +78,9 @@
 <label for="sub">Subscribirse al boletin de Novedades</label></p>
           
 
-            <button type="submit" name="btn_guardar_cambios" id="btn_guardar_cambios">Guardar Cambios</button>
-            <button type="reset" name="btn_borrar" id="btn_borrar">Borrar los datos introducidos</button>
+            <button type="submit" name="btn_guardar_cambios" >Guardar Cambios</button>
+            <button type="reset" name="btn_borrar" >Borrar los datos introducidos</button>
 
 
 
     </form>
-    </body>
-
-</html>

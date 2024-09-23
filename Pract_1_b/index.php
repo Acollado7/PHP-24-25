@@ -8,9 +8,6 @@ if(isset($_POST["btn_guardar_cambios"])){
     $error_sexo=!isset($_POST["sexo"]);
     $error_comentarios=($_POST["comentarios"]=="");
 
-
-
-
     $errores_form=$error_nombre||$error_apellidos||$error_clave||$error_dni||$error_sexo||$error_comentarios;
 }
 ?>
@@ -29,7 +26,7 @@ if(isset($_POST["btn_guardar_cambios"])){
 
 <body>
 <?php 
-if (isset($_POST["btn_guardar_cambios"])) {
+if (isset($_POST["btn_guardar_cambios"]) && !$errores_form) {
     require "vistas/vista_recogida.php"; 
 }else{
     require "vistas/vista_formulario.php";
