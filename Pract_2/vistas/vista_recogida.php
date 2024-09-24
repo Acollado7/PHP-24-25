@@ -1,9 +1,12 @@
+
+<h1>Estos son los datos enviados</h1>
+<p>El nombre enviado ha sido: <?=$_POST["nombre"]?></p>
+<p>Ha nacido en: <?=$_POST["nacido"]?></p>
+<p>El sexo es: <?=$_POST["sexo"]?></p>
+
 <?php
 
-echo "<h1>Estos son los datos enviados</h1>";
-echo "<p>El nombre enviado ha sido: ".$_POST["nombre"]."</p>";
-echo "<p>Ha nacido en: ".$_POST["nacido"]."</p>";
-echo "<p>El sexo es: ".$_POST["sexo"]."</p>";
+
 
 //Aficiones
 

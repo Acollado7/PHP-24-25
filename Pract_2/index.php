@@ -4,8 +4,6 @@ if (isset($_POST["btnEnviar"])) {
     $error_nombre = $_POST["nombre"]== "";
     $error_sexo = !isset($_POST["sexo"]);
 
-
-
     $errores_form = $error_nombre || $error_sexo;
 }
 
